@@ -4,13 +4,11 @@
 
 ***
 
-# Controle J2EE
+# Rapport Controle J2EE
 
 **Créer un projet Java avec Spring Initializr de type Maven:**
 
-<img src="/home/abc/Pictures/Screenshot_20230427_094841.png" alt="Screenshot_20230427_094841" style="zoom: 67%;" />
-
-
+<img src="screenshots/094841.png" style="zoom: 67%;" />
 
 **Créer l'entité JPA Patient**
 
@@ -113,6 +111,8 @@ public String patients(Model model, ...) {
 </div>
 ```
 
+![111008](screenshots/111008.png)
+
 **Vue `formPatients.html` & Contrôleur pour remplir le formulaire des patients**
 
 ```html
@@ -134,3 +134,8 @@ public String save(Model model, @Valid Patient patient, BindingResult bindingRes
 }
 ```
 
+![111030](screenshots/111030.png)
+
+**Page d'authentification**
+
+![111044](screenshots/111044.png)
