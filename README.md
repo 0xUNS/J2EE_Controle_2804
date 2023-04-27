@@ -139,3 +139,12 @@ public String save(Model model, @Valid Patient patient, BindingResult bindingRes
 **Page d'authentification**
 
 ![111044](screenshots/111044.png)
+
+# Docker
+
+Tester l'application web sur Docker
+```bash
+docker pull 0xuns/mvc-patients
+docker -ti run -p 8081:8081 0xuns/mvc-patients
+```
+
